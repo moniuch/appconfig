@@ -27,16 +27,10 @@ export class AppConfigService {
   }
 
   loadAppConfig(path: string): Promise<any> {
-    return new Promise((resolve, reject) => {
-      this.http.get(`${path}?v=${Date.now()}`)
-        .toPromise()
-        .then(data => {
-          this.configData = data;
-          resolve(data);
-        })
-        .catch(e => {
-          reject(e);
-        });
-    });
+    return this.http.get(`${path}?v=${Date.now()}`)
+      .toPromise()
+      .then(data => {
+        this.configData = data;
+      });
   }
 }

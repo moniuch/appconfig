@@ -7,8 +7,6 @@ import { AppConfigService } from './app-config.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'appconfig';
-
   constructor(
     public appConfig: AppConfigService,
   ) {

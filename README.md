@@ -1,6 +1,4 @@
-# Appconfig
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+# appconfig
 
 It is an experiment how to use `APP_INITIALIZER` together with a service for loading a JSON file at the bootstrap time, so to configure the app instance.
 The scenario we want to address is to be able to re-use the same single build for _n_ different servers/domains.
@@ -27,6 +25,8 @@ The following are unknown for me at this moment.
 
 
 # Angular CLI readme:
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 ## Development server
 

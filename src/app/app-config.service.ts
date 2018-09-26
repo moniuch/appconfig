@@ -8,7 +8,6 @@ const APP_CONFIG_FILE_NAME = 'appConfig.json';
   providedIn: 'root',
 })
 export class AppConfigService {
-  public loaded = false;
   private configData = {};
 
   constructor(

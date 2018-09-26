@@ -9,7 +9,7 @@ The scenario we want to address is to be able to re-use the same single build fo
 
 1. The `environment.ts` file contains `isLocal: true`
 2. AppConfigService loads `appConfig.json` from `/src/appConfig.json`
-3. run `ng serve` as usual
+3. Run `ng serve` as usual
 
 ## Production build
 
